@@ -1,49 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>CONTACT
-        </title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trendopedia</title>
         <link rel="stylesheet" href="contact.css">
     </head>
-    <body>
-        <section id="home">
-        <div class="logo">
-            <a>  <ion-icon name="at-circle"></ion-icon></a>
-        </div>
-        <div class="pro">
-            <h1>CONTACT</h1>
-            <p class="pro1">GET IN TOUCH</p>
-        </div>
-        <div class="container2"> 
-            <form style="width:50%;margin-left:25%">
-                <div class="row">
-                    <div class="col-md-6">
-                    <div class="md-form mb-0">
-                    <input class="form-control" type="text" id="name" placeholder="Name" required>
-                    </div>
-                </div>
-            <div class="col-md-6">
-                <div class="md-form mb-0">
-                <input class="form-control" type="text" id="mail" placeholder="E-mail" required>
-            </div>
-            </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="md-form mb-0">
-                <input class="form-control" type="text" id="subject" placeholder="Subject" required>
-            </div></div>
-            <div class="col-md-6">
-                <div class="md-form">
-                <input class="form-control" type="text" id="message" placeholder="Leave a message" required>
-            </div></div></div>
-        </div>
-        <button class="button1" type="submit"> <a class="send">
-        </a> Send</button>
-    </form>
-</section>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-</body>
+    <body >
+        <header>
+            <center><a href="index.html"><img src="photos/logo.png"></a></center>
+            <ta
+        </header>
+        <nav>
+            <table align="center" width="80%" height="50%" cellspacing="1">
+                <tr align="center"></tr>
+                    <td><a href="index.html" target="_parent"><h3>HOME</h3></a></td>
+                    <td>
+                        <div class="dropdown">
+                            <button class="dropbtn">MENS</button>
+                            <div class="dropdown-content">
+                                <a href="shirts.html">Shirts</a>
+                                <a href="t_shirts.html">T-Shirts</a>
+                                <a href="pants.html">Pants</a>
+                                <a href="shoes.html">Shoes</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="dropdown">
+                            <button class="dropbtn">WOMENS</button>
+                            <div class="dropdown-content">
+                                <a href="tops.html">Tops</a>
+                                <a href="pants_womens.html">Pants</a>
+                                <a href="ethenic.html">Ethinic</a>
+                                <a href="western.html">Wester </a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><a href="size_chart.html" target="_blank"><h3>SIZE CHART</h3></a></td>
+                    <td><a href="contact.html" target="_blank"><h3>CONTACT US</h3></a></td>
+                </tr>
+            </table>
+        </nav>
+        <main>
+            <section>
+                <form>
+                    <table align="center" width="30%" height="50%" cellspacing="1">
+                        <tr>
+                            <td colspan="2" align="center" style="color: #7A26C1;"><h2>Contact Us</h2></td>
+                        </tr>
+                        <tr>
+                            <td align="right">Name:</td>
+                            <td><input type="text" name="user_name" placeholder="Enter your name" required></td>
+                        </tr>
+                        <tr>
+                            <td align="right">Email:</td>
+                            <td><input type="email" name="user_email" placeholder="Enter your email" required></td>
+                        </tr>
+                        <tr>
+                            <td align="right">Subject:</td>
+                            <td><input type="text" name="user_subject" placeholder="Enter your subject" required></td>
+                        </tr>
+                        <tr>
+                            <td align="right">Message:</td>
+                            <td><textarea name="user_message" cols="30" rows="7" placeholder="Enter your message" required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center"><input type="submit" name="submit" value="Send"></td>
+                        </tr>
+                    </table>
+            </section>
+        </main>
+        <footer>
+            <a href="#">FAQ</a>
+            <a href="contact.html">Contact us</a>
+            <a href="#">Terms and conditions</a>
+            <a href="#">&copy; Trendopedia  </a>
+        </footer>
+    </body>
 </html>
