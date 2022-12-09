@@ -43,7 +43,7 @@ section:nth-child(even) {
 }
 
 section {
-    min-height: 135vh;
+    min-height: 140vh;
 }
 
 video {
