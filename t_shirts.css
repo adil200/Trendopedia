@@ -43,7 +43,7 @@ section:nth-child(even) {
 }
 
 section {
-    min-height: 120vh;
+    min-height: 160vh;
 }
 
 video {
@@ -69,6 +69,8 @@ footer {
 
 footer a {
     text-decoration: none;
+    margin: auto;
+    margin-left: 225px;
     padding: 20px;
     text-align: center;
     float: left;
